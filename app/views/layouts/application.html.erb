@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DigitalJournal</title>
+    <title>Journal</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -21,17 +21,13 @@
             <% end %>
           </ul>
         </nav>
-        <h3 class="text-muted">Project name</h3>
+        <h3 class="text-muted">Journal</h3>
       </div>
 
 	  <p class="notice"><%= notice %></p>
 	  <p class="alert"><%= alert %></p>
 
 	  <%= yield %>
-
-      <footer class="footer">
-        <p>© 2016 Company, Inc.</p>
-      </footer>
     </div>
   </body>
 </html>
